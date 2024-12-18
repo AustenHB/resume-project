@@ -1,0 +1,46 @@
+.burnley-header {
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;  /* Make sure the body takes the full height of the page */
+    margin: 0;     /* Remove default margin */
+    display: flex; /* Set display to flex for the body to enable Flexbox */
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+}
+
+.home-link,.game-link {
+    font-style: italic;
+    color: darkblue;
+}
+
+.title {
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    align-items: center;
+    text-decoration: underline;
+    color: black
+}
+
+.parade {
+    margin-left: 600px
+}
+
+body {
+    background-color: lightcoral;
+}
+
+.box {
+    width: 800px;
+    height: 160px;
+    background-color: beige;
+    border: 2px solid green;
+    padding: 20px;
+    box-sizing: border-box;
+    color:cadetblue
+}
+
+a:hover{
+color: darkcyan;
+}
+<div class="home-link"><a href="index.html">Back to home page</a></div><br><br><a href="burnley.html">Visit a page just about Burnley</a><body>
